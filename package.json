@@ -1,0 +1,21 @@
+{
+  "name": "funky-canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel main.js --out-file main-es5.js --source-maps --presets=@babel/preset-env",
+    "build-watch": "babel main.js --out-file main-es5.js --source-maps --presets=@babel/preset-env --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-exponentiation-operator": "^7.2.0",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  }
+}
